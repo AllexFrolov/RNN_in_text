@@ -5,7 +5,7 @@ from pymorphy2 import MorphAnalyzer
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torchtext import data, vocab
+from torchtext import data
 
 
 def clearing(text):
